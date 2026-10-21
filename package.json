@@ -1,0 +1,18 @@
+{
+  "name": "atelier",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node smoke.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@electric-sql/pglite": "^0.5.10",
+    "express": "^4.19.2",
+    "pg": "^8.23.1"
+  }
+}
